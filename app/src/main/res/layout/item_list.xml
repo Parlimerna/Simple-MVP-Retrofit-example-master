@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/id"/>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"/>
+
+    <TextView
+        android:id="@+id/nomor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nomor"/>
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/age"/>
+
+    <TextView
+        android:id="@+id/team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/team"/>
+
+    <TextView
+        android:id="@+id/deskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deskripsi"/>
+
+    <TextView
+        android:id="@+id/negara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/negara"/>
+
+    <TextView
+        android:id="@+id/posisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/posisi"/>
+
+    <ImageView
+        android:id="@+id/img_ikon"
+        android:layout_width="250dp"
+        android:layout_height="250dp" />
+
+    <ImageView
+        android:id="@+id/img_gambar"
+        android:layout_width="250dp"
+        android:layout_height="250dp" />
+</LinearLayout>
